@@ -527,8 +527,10 @@ nav.primary a:not(.nav-cta):hover::after{ transform:scaleX(1); }
 .locations{ background:var(--gray-50); }
 .timeline{
   display:grid;
-  grid-template-columns:repeat(3,1fr);
+  grid-template-columns:repeat(2,1fr);
   gap:24px;
+  max-width:720px;
+  margin:0 auto;
 }
 .stop{
   background:var(--white);
